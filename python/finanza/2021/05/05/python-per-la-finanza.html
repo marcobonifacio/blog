@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Python per la finanza | marco bonifacio</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Python per la finanza" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Utilizzare Python in campo finanziario" />
+<meta property="og:description" content="Utilizzare Python in campo finanziario" />
+<link rel="canonical" href="https://marcobonifacio.github.io/blog/python/finanza/2021/05/05/python-per-la-finanza.html" />
+<meta property="og:url" content="https://marcobonifacio.github.io/blog/python/finanza/2021/05/05/python-per-la-finanza.html" />
+<meta property="og:site_name" content="marco bonifacio" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-05-05T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://marcobonifacio.github.io/blog/python/finanza/2021/05/05/python-per-la-finanza.html","@type":"BlogPosting","headline":"Python per la finanza","dateModified":"2021-05-05T00:00:00-05:00","datePublished":"2021-05-05T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://marcobonifacio.github.io/blog/python/finanza/2021/05/05/python-per-la-finanza.html"},"description":"Utilizzare Python in campo finanziario","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://marcobonifacio.github.io/blog/feed.xml" title="marco bonifacio" /><link rel="shortcut icon" type="image/x-icon" href="/blog/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/blog/">marco bonifacio</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/about/">About Me</a><a class="page-link" href="/blog/search/">Search</a><a class="page-link" href="/blog/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Python per la finanza</h1><p class="page-description">Utilizzare Python in campo finanziario</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-05-05T00:00:00-05:00" itemprop="datePublished">
+        May 5, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      4 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/blog/categories/#python">python</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/blog/categories/#finanza">finanza</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><a href="https://www.python.org">Python</a> è per me diventato negli anni uno strumento indispensabile di lavoro, soprattutto quando i dati da gestire superano le capacità di Excel o per effettuare alcune analisi statistiche un po’ più sofisticate del solito. Tuttavia, mi sono accorto che costruire un ambiente di lavoro efficace ed efficiente basato su Python non è sempre intuitivo, per cui proverò in questo post a condividere alcune delle cose che ho imparato nel tempo per giungere a una configurazione soddisfacente di questo importante strumento, soprattutto per chi lavora in ambito finanziario o ha comunque necessità di analizzare dei dati.</p>
+
+<p>La distribuzione di Python più interessante per chi lavora con i dati (o fa <em>data science</em>, come si dice adesso) è sicuramente <a href="https://www.anaconda.com/products/individual">Anaconda</a>, che però installa di <em>default</em> fin troppe librerie scientifiche per i miei gusti. Esiste una versione <em>minimal</em> di <code class="language-plaintext highlighter-rouge">Anaconda</code>, <a href="https://docs.conda.io/en/latest/miniconda.html">miniconda</a>, che installa solo l’interprete del linguaggio e un set minimo di librerie per il funzionamento del <em>package manager</em>, lasciando all’utente la possibilità di installare poi solo gli ulteriori pacchetti effettivamente necessari per ciascun progetto. Qui però iniziano le difficoltà. Se da un lato <code class="language-plaintext highlighter-rouge">conda</code>, rispetto a <code class="language-plaintext highlighter-rouge">pip</code>, il <em>package manager</em> ufficiale di Python, permette una gestione delle librerie più agevole, dall’altro il numnero di pacchetti disponibili è ben inferiore. Per fortuna, un’ampia <em>community</em> si è fatta carico di ampliare la disponibilità di librerie sotto <code class="language-plaintext highlighter-rouge">conda</code> attraverso il canale <code class="language-plaintext highlighter-rouge">conda-forge</code>. Mischiare però le distribuzioni “ufficiali” di Anaconda con quelle di <code class="language-plaintext highlighter-rouge">conda-forge</code> è sconsigliabile e nel tempo rischia di corrompere i vari ambienti di lavoro di Python. Per questo ho recentemente scoperto con soddifazione <a href="https://github.com/conda-forge/miniforge">miniforge</a>, un clone di <code class="language-plaintext highlighter-rouge">miniconda</code> che scarica direttamente i pacchetti di Python dal canale della <em>community</em> di <code class="language-plaintext highlighter-rouge">conda-forge</code><sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>. Alla fine, quindi, sto usando con soddisfazione da alcuni mesi questa distribuzione, con impostazioni identiche tra i vari dispositivi che utilizzo in modo da avere ambienti di lavoro intercambiabili.</p>
+
+<p>Passando alle librerie vere e proprie, la prima cosa da installare, secondo me, è la triade <a href="https://numpy.org/&gt;">numpy</a> - <a href="https://pandas.pydata.org/">pandas</a> - <a href="https://matplotlib.org/">matplotlib</a>. Altamente integrati tra loro, questi tre pacchetti soddisfano tutte le esigenze di analisi e visualizzazione dei dati, sostituendo più che degnamente gli enormi fogli Excel con centinaia di collegamenti che vanno velocemente fuori controllo. A questa configurazione base si possono poi aggiungere numerose altre librerie più specializzate, tra cui, ad esempio, <a href="https://www.scipy.org/">scipy</a> per le procedure di ottimizzazione o <a href="https://scikit-learn.org/stable/">scikit-learn</a> per classificazione e regressione (o - più pomposamente - per il <em>machine learning</em>).</p>
+
+<p>Tutto questo può essere gestito tramite un normale <em>editor</em> di testo o l’interprete interattivo di Python, ma è probabilmente più comodo fare le prime analisi di un progetto attraverso un <em>notebook</em>, un’applicazione <em>web</em> che consente di mescolare codice, risultati, visualizzazioni e testi in un unico documento. Qui entra in gioco <a href="https://jupyter.org/">jupyter</a>, progetto <em>open source</em> di <em>notebook</em> multi-linguaggio, che nell’ultima versione - <code class="language-plaintext highlighter-rouge">JupyterLab</code> - integra anche un terminale e vari <em>plugin</em> che lo rendono un vero e proprio ambiente <em>web</em> interattivo di sviluppo. Sebbene i <em>notebook</em>, estremamente versatili proprio per la capacità di integrare codice, testo e grafici in un unico documento, possano essere strumenti decisamente sofisticati in grado di generare un prodotto finito molto elegante, si prestano anche bene per le prime analisi esplorative e per costruire veloci prototipi di progetto, grazie all’immediatezza con cui in poche righe di codice si può caricare una tabella di dati, elaborarla e produrre qualche grafico a corredo.</p>
+
+<p>Il problema dei <em>notebook</em> è che si prestano a uno stile di <a href="https://it.wikipedia.org/wiki/Programmazione_imperativa">programmazione imperativo</a> che rischia di produrre documenti “pasticciati” in caso di progetti più complessi e strutturati. Per questi ultimi, sono però disponibili strumenti che permettono di creare con relativa facilità delle vere e proprie applicazioni <em>web</em> in cui risulta più semplice separare parametri e algoritmi e strutturare in modo più funzionale il codice. Tra questi strumenti, citerei in particolare <a href="https://streamlit.io/">Streamlit</a> che ho recentemente utilizzato per costruire una <em>dashboard</em> nella quale riunire tutti i <em>task</em> quotidiani in modo da avere un vero e proprio pannello di controllo delle attività ricorrenti nella mia giornata lavorativa. Quello che mi ha sorpreso di <code class="language-plaintext highlighter-rouge">Streamlit</code> è l’assoluta facilità con cui è stato possibile integrare elementi interattivi nel codice per costruire pagine <em>web</em> dinamiche; inoltre - ma questa è una caratteristica che condivide con molti altri pacchetti - come sia stato possibile costruire delle vere e proprie <em>web app</em> solo con Python<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>.</p>
+
+<p>Ecco, in sintesi questo è il mio ambiente di lavoro dietro lo schermo. Peraltro, io sono un tipo curioso e ho provato diversi strumenti in questi anni, prima di arrivare a una configurazione più o meno stabile che ho cercato qui di descrivere. E non è detto che non troverò qualcosa di interessante anche domani, per cui cambierò qualcosa e avrò una scusa per tornare a parlarne.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Anche se in realtà lo stesso risultato si può ottenere in :code:<code class="language-plaintext highlighter-rouge">miniconda</code> settando il canale :code:<code class="language-plaintext highlighter-rouge">conda-forge</code> per primo. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>Ovviamente, dietro c’è anche tanto Javascript, ma se ne occupa direttamente :code:<code class="language-plaintext highlighter-rouge">Streamlit</code> o chi per lui. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="marcobonifacio/blog"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/blog/python/finanza/2021/05/05/python-per-la-finanza.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/blog/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/blog/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/blog/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p></p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/marcobonifacio" title="marcobonifacio"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/mrcbnfc" title="mrcbnfc"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

@@ -19,6 +19,6 @@ Il problema dei *notebook* è che si prestano a uno stile di [programmazione imp
 
 Ecco, in sintesi questo è il mio ambiente di lavoro dietro lo schermo. Peraltro, io sono un tipo curioso e ho provato diversi strumenti in questi anni, prima di arrivare a una configurazione più o meno stabile che ho cercato qui di descrivere. E non è detto che non troverò qualcosa di interessante anche domani, per cui cambierò qualcosa e avrò una scusa per tornare a parlarne. 
 
-[^1]: Anche se in realtà lo stesso risultato si può ottenere in `miniconda` settando il canale `conda-forge` per primo.
-[^2]: Ovviamente, dietro c'è anche tanto Javascript, ma se ne occupa direttamente `Streamlit` o chi per lui.
+[^1]: Anche se in realtà lo stesso risultato si può ottenere in miniconda settando il canale conda-forge per primo.
+[^2]: Ovviamente, dietro c'è anche tanto Javascript, ma se ne occupa direttamente Streamlit o chi per lui.
  

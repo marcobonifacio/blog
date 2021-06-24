@@ -4,8 +4,8 @@ title: About Me
 permalink: /about/
 ---
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
+Laureato in Economia Aziendale alla Bocconi, lavoro da circa 25 anni nel settore finanziario, prima come analista, poi come *risk manager*.
 
+Appassionato di programmazione, uso Python per mestiere e per diletto. In questo blog, provo a raccontare le mie scoperte su programmazione, finanza, ma non solo.
 
-
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+Restiamo in contatto!

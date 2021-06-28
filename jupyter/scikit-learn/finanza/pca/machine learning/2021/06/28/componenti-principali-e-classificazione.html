@@ -700,7 +700,9 @@ window.onload = wrap_img;
     
     
 <div class="cell border-box-sizing code_cell rendered">
-<div class="input">
+<details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p><div class="input">
 
 <div class="inner_cell">
     <div class="input_area">
@@ -724,7 +726,8 @@ window.onload = wrap_img;
     </div>
 </div>
 </div>
-
+</p>
+    </details>
 <div class="output_wrapper">
 <div class="output">
 
@@ -794,7 +797,7 @@ window.onload = wrap_img;
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Facendo il grafico dei valori delle componenti principali, possiamo osservare che la prima componente è molto più volatile delle altre - per evitare che questo fenomeno influenzi la classificazione dei titoli, <a href="https://it.wikipedia.org/wiki/Standardizzazione_(statistica">standardizziamo</a>) i rendimenti delle componenti principali.</p>
+<p>Facendo il grafico dei valori delle componenti principali, possiamo osservare che la prima componente è molto più volatile delle altre - per evitare che questo fenomeno influenzi la classificazione dei titoli, <a href="https://it.wikipedia.org/wiki/Standardizzazione_(statistica\">standardizziamo</a>) i rendimenti delle componenti principali.</p>
 
 </div>
 </div>
@@ -923,7 +926,7 @@ window.onload = wrap_img;
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Applichiamo a questo punto l'algoritmo <a href="https://it.wikipedia.org/wiki/K-means">K-means</a> per classificare i titoli in K gruppi simili. Dovendo decidere <em>ex-ante</em> il numero K di gruppi in cui partizionare lo spazio dei titoli, utilizziamo due metodi di ricerca dell'ottimo applicandoli a valori di K compresi tra 2 e 10. Il primo metodo (<strong>inertia</strong>) fissa il punto di ottimo al <a href="https://blog.cambridgespark.com/how-to-determine-the-optimal-number-of-clusters-for-k-means-clustering-14f27070048f">"gomito"</a> del grafico ottenuto - la linea blu nella figura sottostante. Il secondo metodo (<strong>silhouette</strong>) trova il numero di <em>cluster</em> ottimo in corrispondenza del massimo (locale) della funzione. In entrambi i casi, 7 sembra essere il valore ottimale per noi.</p>
+<p>Applichiamo a questo punto l'algoritmo <a href="https://it.wikipedia.org/wiki/K-means">K-means</a> per classificare i titoli in K gruppi simili. Dovendo decidere <em>ex-ante</em> il numero K di gruppi in cui partizionare lo spazio dei titoli, utilizziamo due metodi di ricerca dell'ottimo applicandoli a valori di K compresi tra 2 e 10. Il primo metodo (<strong>inertia</strong>) fissa il punto di ottimo al <a href="https://blog.cambridgespark.com/how-to-determine-the-optimal-number-of-clusters-for-k-means-clustering-14f27070048f">"gomito"</a> del grafico ottenuto - la linea più in alto nella figura sottostante. Il secondo metodo (<strong>silhouette</strong>) trova il numero di <em>cluster</em> ottimo in corrispondenza del massimo (locale) della funzione. In entrambi i casi, 7 sembra essere il valore ottimale per noi.</p>
 
 </div>
 </div>
